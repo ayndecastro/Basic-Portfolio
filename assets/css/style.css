@@ -5,9 +5,6 @@ h1{
     font-family: "georgia";
     font-size: 24px;
 }
-body{
-    background-image: url();
-}
 section, .row{
     border: none;
     max-width:754px;
@@ -16,20 +13,18 @@ section, .row{
     min-width: 50%;
 }
 .container, .title {
-    border-right: none;
     border-bottom: solid #cccccc;
-    border-left: none;
-    border-top: none;
 }
 .container {
     box-sizing: border-box;
     padding: 0px auto;
-    margin: 0px 0px 0px 0px;
+    margin: auto 0px auto 0px;
     max-width: 1520px;
     min-width: 960px;
     max-height: 70px;
     background: #fff;
     position: relative;
+    top: -8px;
 }
 .container2 {
     border: 1px solid #ddd;
@@ -51,35 +46,30 @@ section, .row{
     margin: 0px auto;
 }
 .name{
-    border: none;
     width:300px;
-    max-height: 64px;
     float: right;
     padding-top: 23px;
-    padding-bottom: 22px;
+    padding-bottom: 17px;
     background: #4aaaa4;
     color: white;
     text-align: center;
-    top: -24px;
+    top: -20px;
     margin-right: 180px;
 }
 .btn {
     border-right: solid 1px #cccccc;
-    border-bottom: none;
-    border-left: none;
-    border-top: none;
     height: 5px;
     padding: 30px 10px;
     position: relative;
-    padding-right: 5px;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    padding-left: 5px;
+    padding: 0px 5px 10px 5px;
     margin-top: 20px;
     margin-bottom: 0px;
     text-decoration: none;
     color: #777;
-
+}
+.btn:hover {
+    color: #4aaaa4;
+    text-decoration: underline;
 }
 #btn1 {
     border-right: none;
@@ -135,7 +125,7 @@ form {
 }
 span {
     position: absolute;
-    z-index: 10000000;
+    z-index: 1000;
     border: none;
     bottom: 20px;
     width:200px;
@@ -144,9 +134,7 @@ span {
     text-align: center;
     padding: 10px 0px 10px 0px;
     height: 25px;
-
 }
-
 .right{
     position: relative;
     float: right;
@@ -154,4 +142,19 @@ span {
     vertical-align: top;
     margin: 10px 450px 10px 10px;
     bottom: 653px;
+}
+.footer {
+    border-top: solid 5px #4aaaa4;
+    position: fixed;
+    box-sizing: border-box;
+    padding-top: 25px;
+    margin: auto 0px auto 0px;
+    max-width: 100%;
+    min-width: 1520px;
+    height:50px;
+    background: #666;
+    color: #fff;
+    text-align: center;
+    bottom: -1px;
+    z-index: 100000;
 }
