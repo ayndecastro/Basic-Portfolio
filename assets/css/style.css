@@ -1,0 +1,157 @@
+*{
+    font-family: "arial";
+}
+h1{
+    font-family: "georgia";
+    font-size: 24px;
+}
+body{
+    background-image: url();
+}
+section, .row{
+    border: none;
+    max-width:754px;
+    height:66px;
+    position: absolute;
+    min-width: 50%;
+}
+.container, .title {
+    border-right: none;
+    border-bottom: solid #cccccc;
+    border-left: none;
+    border-top: none;
+}
+.container {
+    box-sizing: border-box;
+    padding: 0px auto;
+    margin: 0px 0px 0px 0px;
+    max-width: 1520px;
+    min-width: 960px;
+    max-height: 70px;
+    background: #fff;
+    position: relative;
+}
+.container2 {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    max-width: 960px;
+    min-height: 500px;
+    max-height: 800px;
+    margin: 10px auto;
+    background: #fff;
+}
+.btn, section, .name {
+    position:relative;
+    display: inline-block;
+}
+.row{
+    display: inline-block;
+    padding-left: 280px;
+    padding-right: 300px;
+    margin: 0px auto;
+}
+.name{
+    border: none;
+    width:300px;
+    max-height: 64px;
+    float: right;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    background: #4aaaa4;
+    color: white;
+    text-align: center;
+    top: -24px;
+    margin-right: 180px;
+}
+.btn {
+    border-right: solid 1px #cccccc;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    height: 5px;
+    padding: 30px 10px;
+    position: relative;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: #777;
+
+}
+#btn1 {
+    border-right: none;
+}
+.title{
+    color:  #4aaaa4;
+    margin: 20px 10px;
+}
+.indeximage{
+    position: relative;
+    float: left;
+    margin: 5px 10px;
+}
+p, h4{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+    position: relative;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: #777;
+}
+form {
+    border: none;
+    padding-left: 13px;
+    padding-bottom: 20px;
+}
+.text{
+    width: 900px;
+}
+.submit {
+    background: #4aaaa4;
+    color: white;
+    border-style: outset;
+    border-color: #4aaaa4;
+    height: 40px;
+    width: 100px;
+    margin-left: 9px;
+    font: bold;
+    text-shadow:none;
+}
+.portfoliosection {
+    border: none;
+    box-sizing: border-box;
+    max-width: 960px;
+    
+}
+.imgHolder {
+    position:relative;
+    border: none;
+    width: 200px;
+    margin: 10px 10px 10px 20px;
+}
+span {
+    position: absolute;
+    z-index: 10000000;
+    border: none;
+    bottom: 20px;
+    width:200px;
+    background: #4aaaa4;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    height: 25px;
+
+}
+
+.right{
+    position: relative;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 450px 10px 10px;
+    bottom: 653px;
+}
